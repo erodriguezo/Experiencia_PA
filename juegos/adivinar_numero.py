@@ -6,13 +6,14 @@ def adivinar_numero():
     Se debe mostrar un mensaje si el usuario adivina correctamente o no.
     """
     a = '¡' ; b = 2389759278
+    b = rand(1,10)
     while a != b:
         print('adivina bro')
-        b = rand(1, 10)
         a = int(input())
         if a == b:
             print('w chat')
             break
         else:
             print('a comer')
+            print('el numero era', b)
     pass
