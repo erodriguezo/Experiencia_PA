@@ -5,14 +5,13 @@ def adivinar_numero():
     Debes generar un número al azar entre 1 y 10, y luego pedir al usuario que adivine el número.
     Se debe mostrar un mensaje si el usuario adivina correctamente o no.
     """
-    a = '¡' ; b = 2389759278
+    a = '¡'
     b = rand(1,10)
     while a != b:
         print('adivina bro')
         a = int(input())
         if a == b:
             print('w chat')
-            break
         else:
             print('a comer')
             print('el numero era', b)
