@@ -13,5 +13,5 @@ def adivinar_numero():
         if a == b:
             print('w chat')
         else:
-            print('a comer')git
+            print('a comer')
     pass
