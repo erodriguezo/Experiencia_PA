@@ -7,6 +7,7 @@ def juego_del_dado():
     El primero en sumar 30 puntos gana.
     """
     yo = 0 ; gpt = 0
+    print('Juegas tu contra la maquina, el primero que llega a 30 gana\nApreta enter para lanzar los dados')
     while True:
         temp0 = input()
 
@@ -22,9 +23,9 @@ def juego_del_dado():
 
         temp1 = ibai(1, 6)
         gpt += temp1
-        print('lleva', gpt)
+        print('la maquina lleva', gpt)
         if gpt >= 30:
             print('NOOOOOOOOOOOOOOOOOOO')
-            print('como pierdes contra chat gpt wn')
+            print('como pierdes contra chat gpt \n gg bro')
             break
     pass
