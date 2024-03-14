@@ -11,7 +11,8 @@ def adivinar_numero():
         b = rand(1, 10)
         a = int(input())
         if a == b:
+            print('w chat')
             break
         else:
             print('a comer')
-    return 'w chat'
+    pass
