@@ -8,10 +8,11 @@ def adivinar_numero():
     a = '¡' ; b = 349234897
     while a != b:
         b = rand(1,10)
-        print('adivina bro')
+        print('adivina bro del 1 al 10')
         a = int(input())
         if a == b:
             print('w chat')
         else:
             print('a comer')
+            print('el numero era', b)
     pass
